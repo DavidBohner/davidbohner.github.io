@@ -1,18 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Homepage</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+<html>
 
-        <link rel="me" href="https://infosec.exchange/@davidbohner">
-    </head>
+<head>
+    <title>David Bohner</title>
+    <meta name="description" content="David Bohner - Cybersecurity, Backend Developer, VGT AG, HSLU.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/62f6c2f3d7.js" crossorigin="anonymous"></script>
+    <script src="./js/ecc.js"></script>
+    <link rel="me" href="https://infosec.exchange/@davidbohner">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
+</head>
 
-    <body>
-        <div class="main">
-            <div class="w3-center soontm">Coming Soon</div>
+<body class="w3-light-grey">
+
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+
+            <!-- Left Column -->
+            <div class="w3-third">
+
+                <div class="w3-white w3-text-grey w3-card-4">
+                    <div class="w3-display-container">
+                        <img src="./img/profil.jpg" style="width:100%" alt="Avatar">
+                        <div class="w3-display-bottomleft w3-container w3-text-white">
+                            <h1>David Bohner</h1>
+                        </div>
+                    </div>
+                    <div class="w3-container">
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Cybersecurity Risk Management & Incident Response</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Remigen, AG</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-deep-purple"></i><span id="Ob2Sw9ePjl">Enable JS to view</span></p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-deep-purple"></i><span id="qnjXGn4EhS">Enable JS to view</span></p>
+                        <hr>
+
+                        <p class="w3-large"><b><i class="fa fa-code fa-fw w3-margin-right w3-text-deep-purple"></i>Technical Skills</b></p>
+                        <ul class="w3-ul">
+                        <li><b>Programming:</b> C#, Python, Java, C</li>
+                        <li><b>Backend:</b> .NET, REST APIs, MongoDB, SQL</li>
+                        <li><b>Cloud/DevOps:</b> Azure DevOps, Active Directory, Azure Lighthouse</li>
+                        <li><b>Security:</b> Threat Modeling, SIEM Tools, Basic Pentesting, Risk Assessment</li>
+                        <li><b>Networking:</b> Cisco Basics, VPNs, Firewalls, DNS, Subnetting</li>
+                        <li><b>Tools:</b> Git, Docker, Kubernetes, Wireshark, Nmap</li>
+                        </ul>
+
+                        <p class="w3-large"><b><i class="fa fa-user fa-fw w3-margin-right w3-text-deep-purple"></i>Soft Skills</b></p>
+                        <ul class="w3-ul">
+                        <li>Cross-cultural communication & team collaboration</li>
+                        <li>Technical writing & documentation</li>
+                        <li>Incident response & calm under pressure</li>
+                        <li>Independent learner with structured thinking</li>
+                        </ul>
+                        <br>
+
+                        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-deep-purple"></i>Languages</b></p>
+                        <p>English</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>German</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Mandarin Chinese</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:40%"></div>
+                        </div>
+                        <br>
+                    </div>
+                </div><br>
+
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <div class="w3-container w3-card w3-white">
+                        <h2 class="w3-text-grey w3-padding-16"><i
+                                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Work Experience
+                        </h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Backend Developer / Virtual Global Trading AG / <a href="https://vgt.energy">vgt.energy</a></b></h5>
+                            <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2023 -
+                                <span class="w3-tag w3-deep-purple w3-round">Current</span></h6>
+                            <p>As a backend developer at VGT, I work on building and maintaining scalable
+                                services for energy trading platforms. My responsibilities include designing APIs,
+                                maintaining live and development environments, and implementing secure backend logic using modern
+                                development stacks. I'm also involved in internal security audits and integrating
+                                compliance checks into development pipelines.</p>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-card w3-white">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Education
+                        </h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Lucerne University of Applied Sciences and Arts / HSLU</b></h5>
+                            <h6 class="w3-opacity">Bachelor Information & Cyber Security - Computer and Information
+                                Systems Security</h6>
+                            <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023 - <span class="w3-tag w3-deep-purple w3-round">Current</span></h6>
+                            <p>I'm currently pursuing a BSc in Information & Cyber Security at HSLU, where I focus on
+                                real-world applications of digital defense — including threat modeling, risk assessment,
+                                and incident response. The program combines technical depth with regulatory awareness,
+                                helping me build a solid foundation for modern cyber risk management.</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Federal Institute of Technology / ETH Zürich</b></h5>
+                            <h6 class="w3-opacity">Bachelor Computer Science</h6>
+                            <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2023</h6>
+                            <p>Attended a BSc in Computer Science at ETH Zürich, with a strong elective emphasis on
+                                secure software development, formal verification, and static analysis. This academic
+                                background provided me with a rigorous foundation in computer systems, system design,
+                                and mathematical thinking - key to tackling complex security challenges.</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Frankfurt International School</b></h5>
+                            <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2018</h6>
+                            <p>Graduated highschool with a bilingual IB Diploma (German & English), with a strong focus on
+                                mathematics, physics, and chemistry. The rigorous academic environment helped sharpen my
+                                analytical thinking and laid the groundwork for later studies in computing and security.
+                            </p><br>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>International School of Beijing</b></h5>
+                            <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2009 - 2016</h6>
+                            <p>Spent over 7 years in an international, English-speaking school community in Beijing.
+                                This experience fostered adaptability, cross-cultural communication, and fluency in
+                                English, along with intermediate proficiency in Mandarin Chinese. The global environment
+                                deeply influenced my perspective on collaboration, multiculturalism, technology, and
+                                learning.</p><br>
+                        </div>
+                    </div>
+
+                    <!-- End Right Column -->
+                </div>
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- End Page Container -->
         </div>
-    </body>
+
+        <footer class="w3-container w3-deep-purple w3-center w3-margin-top">
+            <p>Contact me:</p>
+            <a href="https://linkedin.ch/in/davidbohner"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://infosec.exchange/@davidbohner"><i class="fa-brands fa-mastodon w3-hover-opacity"></i></a>
+            <span id="RMaEiGcjCj"><i class="fa fa-envelope w3-hover-opacity"></i></span>
+            <span id="sVAgYgTpn5"><i class="fa fa-phone w3-hover-opacity"></i></span>
+        </footer>
+
+</body>
+<script>
+    // Email
+    // Obfuscated from basic crawlers rather boringly
+    const ZI2F2uRF1d = "ZGF2aWRib2huZXI=";
+    const AcxgnICluO = "cHJvdG9ubWFpbC5jaA==";
+    const evqUYIjaP1 = atob(ZI2F2uRF1d) + "@" + atob(AcxgnICluO);
+    document.getElementById("Ob2Sw9ePjl").innerHTML = `<a href="mailto:${evqUYIjaP1}">${evqUYIjaP1.replace("@", "&#8203;@")}</a>`;
+    document.getElementById("RMaEiGcjCj").innerHTML = `<a href="mailto:${evqUYIjaP1}"><i class="fa fa-envelope w3-hover-opacity"></i></a>`;
+
+    // Phone Nr
+    // Obfuscated from basic crawlers with a little ECC :)
+    const a = 6;
+    const b = 661;
+    const p = 1013;
+    const G = [1, 41];
+    const ks = [1, 101, 484, 175, 332];
+
+    const parts = ks.map((k, i) => {
+    const point = ecMult(k, G);
+    const y = point[1].toString().padStart(2, '0');
+    return y;
+    });
+
+    const hM2rwkKDgg = "+" + parts.join('');
+    const aTJVUDFvZn = "+" + parts.join(' ');
+
+    document.getElementById("qnjXGn4EhS").innerHTML = `<a href="tel:${hM2rwkKDgg}">${aTJVUDFvZn}</a>`;
+    document.getElementById("sVAgYgTpn5").innerHTML = `<a href="tel:${hM2rwkKDgg}"><i class="fa fa-phone w3-hover-opacity"></i></a>`;
+</script>
 </html>
